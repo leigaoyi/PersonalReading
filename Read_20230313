@@ -1,0 +1,209 @@
+
+
+
+Paper1:
+This paper discusses the use of information theory to design waveforms for the measurement of extended radar targets exhibiting resonance phenomena. The target impulse response is introduced to model target scattering behavior. Two radar waveform design problems with constraints on waveform energy and duration are then solved. In the first problem, a deterministic target impulse response is used to design waveform/receiver-filter pairs for the optimal detection of extended targets in additive noise. In the second problem, a random target impulse response is used to design waveforms that maximize the mutual information between a target ensemble and the received signal in additive Gaussian noise.
+
+The two solutions are contrasted to show the difference between the characteristics of waveforms for extended target detection and information extraction. The optimal target detection solution places as much energy as possible in the largest target scattering mode under imposed constraints on waveform duration and energy. The optimal information extraction solution distributes energy among target scattering modes in order to maximize mutual information between the target ensemble and received radar waveform.
+
+Paper2:
+This paper discusses a subspace method for estimating signature waveforms in synchronous CDMA systems. The authors propose a blind estimation scheme that provides closed-form estimates of the signature waveforms by exploiting the structure information of the data output. They show that the subspace of the data matrix contains sufficient information for unique determination of the signature waveforms and derive a multiple signal classification (MUSIC)-like algorithm.
+
+The paper begins with an introduction to code-division multiple-access (CDMA) techniques and their advantages over existing frequency-division multiple-access (FDMA) or time-division multiple-access (TDMA) systems. The authors then discuss the challenges posed by multipath propagation and fading in CDMA systems and the need for multiuser detection to suppress interference and recover message symbols.
+
+The authors then present their proposed subspace method for estimating signature waveforms in synchronous CDMA systems. They describe how their approach exploits the structure information of the data output to provide closed-form estimates of the signature waveforms. They also present performance analysis of their approach and compare it to other existing methods.
+
+Overall, this paper presents a novel approach to estimating signature waveforms in synchronous CDMA systems that has potential applications in practical communication systems.
+
+Title: Correction for drift in multivariate systems using the Kalman filter
+
+This paper discusses an approach for detecting and correcting time-dependent drift in multivariate calibration parameters using Kalman filters. The authors demonstrate how Kalman filters can be used to correct for drift in the baseline and sensitivities of analytical instruments used to monitor industrial and environmental processes on-line.
+
+The paper begins by discussing the challenges posed by time-dependent drift in analytical instruments and the need for periodic recalibration to ensure reliable concentration predictions. The authors then introduce the concept of Kalman filters and describe how they can be used to correct for drift in baseline and sensitivities through purely random processes or a combination of linear and random drift.
+
+The authors present several examples of implementations of their approach using synthetic, near-infrared, and UV-visible spectrophotometric data. They also demonstrate the application of their approach to the inverse calibration problem.
+
+Overall, this paper presents a novel approach to detecting and correcting time-dependent drift in multivariate calibration parameters using Kalman filters that has potential applications in practical analytical systems.
+
+Title: A New Extension of the Kalman Filter to Nonlinear Systems
+
+This paper discusses a new linear estimator that extends the Kalman filter to nonlinear systems. The authors propose an approach called the unscented transformation that uses a set of appropriately chosen weighted points to parameterize the means and covariances of probability distributions.
+
+The paper begins with an introduction to the Kalman filter and its limitations when applied to nonlinear systems. The authors then discuss the extended Kalman filter (EKF), which is a widely used filtering strategy for nonlinear systems but has several drawbacks such as difficulty in implementation and tuning.
+
+The authors then present their proposed unscented transformation approach and demonstrate its superior performance compared to the EKF. They show that their approach yields performance equivalent to the Kalman filter for linear systems yet generalizes elegantly to nonlinear systems without requiring linearization steps.
+
+Overall, this paper presents a novel approach to extending the Kalman filter to nonlinear systems using the unscented transformation that has potential applications in practical estimation problems.
+
+Title: A New Extension of the Kalman Filter to Nonlinear Systems
+
+This paper discusses a new linear estimator that extends the Kalman filter to nonlinear systems. The authors propose an approach called the unscented transformation that uses a set of appropriately chosen weighted points to parameterize the means and covariances of probability distributions.
+
+The background of this paper is that the Kalman filter (KF) is one of the most widely used methods for tracking and estimation due to its simplicity, optimality, tractability and robustness. However, its application to nonlinear systems can be difficult. The most common approach is to use the extended Kalman filter (EKF), which linearizes all nonlinear models so that the traditional linear Kalman filter can be applied. Despite its widespread use, over thirty years of experience with it has led to a general consensus within the tracking and control community that it is difficult to implement and tune and only reliable for systems which are almost linear on the time scale of update intervals.
+
+The question addressed in this paper is how to extend the Kalman filter to nonlinear systems in a way that avoids these difficulties. The authors propose an approach called the unscented transformation that uses a set of appropriately chosen weighted points to parameterize means and covariances of probability distributions. They show analytically that their approach yields performance equivalent to the KF for linear systems yet generalizes elegantly to nonlinear systems without requiring linearization steps.
+
+The results presented in this paper demonstrate that their proposed unscented transformation approach has superior performance compared to EKF. They also argue that their approach has superior implementation properties compared to EKF because it does not require calculation of Jacobians.
+
+Overall, this paper presents a novel approach for extending the Kalman filter to nonlinear systems using unscented transformation with potential applications in practical estimation problems.
+
+Title: Sensitive detection of magnetic fields including their orientation with a magnetometer based on atomic phase coherence.
+
+This paper discusses an optical magnetometer based on electromagnetically induced transparency (EIT). The experiment utilizes the different orientation characteristics for different field polarizations to measure the magnitude and orientation of an applied magnetic field. The model system considered is the sodium D1 transition taking into account hyperfine structure and optical pumping effects.
+
+Electromagnetically induced transparency (EIT) is a phenomenon where a medium that is normally opaque to light at a particular wavelength becomes transparent when another laser beam is applied. This effect occurs due to quantum interference between different pathways that light can take through the medium.
+
+The paper proposes a new kind of magnetometer that operates in the high-density – strong-field regime leading to potentially higher signal-to-noise ratios. This new type of magnetometer utilizes the high dispersion at an EIT resonance where the absorption is almost completely canceled by quantum interference.
+
+The paper also discusses how to detect both the magnitude and direction of an applied magnetic field simultaneously. This method relies on measuring phase shifts for left and right circularly polarized components of probe laser light which have different orientational characteristics.
+
+In summary, this paper presents a technique for sensitive detection of magnetic fields including their orientation using an optical magnetometer based on atomic phase coherence and electromagnetically induced transparency (EIT).
+
+Title: Theory of spin-exchange optical pumping of 3He and 129Xe
+
+This paper presents a comprehensive theory of nuclear spin polarization of 3He and 129Xe gases by spin-exchange collisions with optically pumped alkali-metal vapors. The main physical processes considered are:
+
+1.  Spin-conserving spin-exchange collisions between like or unlike alkali-metal atoms
+2.  Spin-destroying collisions of the alkali-metal atoms with each other and with buffer-gas atoms
+3.  Electron-nuclear spin-exchange collisions between alkali-metal atoms and 3He or 129Xe atoms
+4.  Spin interactions in van der Waals molecules consisting of a Xe atom bound to an alkali-metal atom
+5.  Optical pumping by laser photons
+6.  Spatial diffusion.
+
+Spin-exchange optical pumping systems are used to produce large amounts of hyperpolarized 3He and 129Xe for medical imaging and other applications. The theory described in this paper is based on previous work and aims to provide a reliable framework for optimizing these systems.
+
+Spin exchange refers to the transfer of angular momentum between particles during a collision. In this case, it refers to the transfer of angular momentum between the electron spins of alkali-metal atoms and the nuclear spins of 3He or 129Xe atoms.
+
+Optical pumping is a process that uses light (laser photons) to excite electrons in an atom or molecule from one energy level to another, changing its magnetic properties.
+
+Van der Waals molecules are weakly bound complexes formed by two or more atoms or molecules held together by van der Waals forces.
+
+Hyperpolarization refers to the process of increasing the nuclear spin polarization (alignment) beyond thermal equilibrium levels.
+
+Is there anything else you would like me to explain?
+
+Title: Gaussian Filters for Nonlinear Filtering Problems
+
+This paper was written by Kazufumi Ito and Kaiqi Xiong and published in the IEEE Transactions on Automatic Control in May 2000. The paper discusses the development and analysis of real-time and accurate filters for nonlinear filtering problems based on Gaussian distributions. The authors present a systematic formulation of Gaussian filters and develop efficient and accurate numerical integration of the optimal filter. They also discuss mixed Gaussian filters in which the conditional probability density is approximated by the sum of Gaussian distributions.
+
+The paper begins with an introduction to the nonlinear filtering problem, which consists of estimating the state of a nonlinear stochastic system from noisy observation data. This problem has many significant applications in science and engineering such as navigational and guidance systems, radar tracking, sonar ranging, satellite and airplane orbit determination.
+
+The authors then develop a Gaussian filter based on a single Gaussian distribution. They assume that the conditional probability density is a Gaussian distribution (i.e., assumed density) and obtain the Gaussian filter by equating the Bayesian formula with respect to the first moment (mean) and second moment (covariance). Their approach is based on efficient numerical integration of the Bayesian formula for optimal recursive filtering.
+
+The authors also discuss mixed Gaussian filters where they approximate the conditional probability density by a linear combination of multiple Gaussian distributions. Each distribution is updated separately using their proposed update rules for weights.
+
+In summary, this paper presents an approach to developing real-time and accurate filters for nonlinear filtering problems based on Gaussian distributions. The authors demonstrate that their proposed filters significantly improve upon existing methods such as extended Kalman filter with no additional cost.
+
+A few technical terms used in this paper include:
+
+-   Nonlinear filtering: A process used to estimate unknown variables from noisy measurements.
+-   Stochastic system: A system that exhibits random behavior over time.
+-   Conditional probability density: The probability density function that describes how likely different values are given some known information.
+-   Bayesian formula: A mathematical equation used to update probabilities based on new data or evidence.
+-   Mean: The average value of a set of numbers.
+-   Covariance: A measure of how two variables change together.
+
+Is there anything else you would like me to explain?
+
+Title: A Tutorial on Particle Filters for Online Nonlinear/Non-Gaussian Bayesian Tracking
+
+This paper is a tutorial on particle filters for online nonlinear/non-Gaussian Bayesian tracking. The authors review both optimal and suboptimal Bayesian algorithms for nonlinear/non-Gaussian tracking problems, with a focus on particle filters. Particle filters are sequential Monte Carlo methods based on point mass (or “particle”) representations of probability densities, which can be applied to any state-space model and which generalize the traditional Kalman filtering methods.
+
+The paper begins with an introduction to the problem of tracking in a state-space approach. The state vector contains all relevant information required to describe the system under investigation. Two models are required: a system model describing the evolution of the state with time and a measurement model relating the noisy measurements to the state. The probabilistic state-space formulation and the requirement for updating information on receipt of new measurements are ideally suited for the Bayesian approach.
+
+In Section II, the authors describe the nonlinear tracking problem and its optimal Bayesian solution. When certain constraints hold, this optimal solution is tractable. The Kalman filter and grid-based filter are two such solutions described in Section III.
+
+Often, however, the optimal solution is intractable. In Section IV, several different approximation strategies to the optimal solution are outlined including extended Kalman filter, approximate grid-based filters and particle filters.
+
+In Section VI, a simple scalar example is used to illustrate some points about these approaches before conclusions are drawn in Section VII.
+
+I’m sorry but I cannot include equations or LaTeX formatting in my responses as it goes beyond my capabilities.
+
+
+Title: Chip-scale atomic magnetometer
+
+This paper describes the construction of a small low-power magnetic sensor based on alkali atoms using microelectromechanical systems (MEMS) techniques. The device is designed to measure magnetic fields with picotesla sensitivity and has applications in underground and underwater ordinance detection, geophysical mapping, navigation, and even the detection and mapping of the human heartbeat.
+
+The core of the sensor is a microfabricated rubidium vapor cell that is made by anodically bonding a glass wafer to either side of a 1 mm thick silicon wafer with a 1 mm2 hole etched through it. The cell is filled with 87Rb and a buffer gas containing a mixture of argon at 11 kPa and neon at 21 kPa that reduces the frequency of decohering Rb-cell-wall collisions. To create sufficient atomic density in the small cell, it is heated to 120 °C by dissipating 160 mW into two transparent indium-tin-oxide (ITO) heaters placed on either side of the cell.
+
+The device utilizes coherent population trapping (CPT) resonance to probe the interaction between the atoms’ magnetic moment with a magnetic field. CPT resonance occurs when two laser fields interact with three atomic levels in such a way that absorption is reduced for one or both lasers. This reduction in absorption creates what’s known as a “dark state” where atoms are trapped in a superposition state between two ground states.
+
+The device measures changes in magnetic flux density with a sensitivity of 50 pT Hz−1/2 at 10 Hz. Further improvements in size, power dissipation, and magnetic field sensitivity are immediately foreseeable.
+
+I hope this helps you understand some key details about this paper! Let me know if you have any further questions.
+
+
+Title: Single-Beam Atomic Magnetometer Based on the Transverse Magnetic-Modulation or DC-Offset
+
+This paper discusses a compact single-beam atomic magnetometer that operates in either a transverse magnetic-modulation mode or a DC-offset mode. Atomic magnetometers (AM) have ultra-high sensitivity and spatial resolution and have a wide range of applications including dynamical measurements of bio-magnetic fields, detecting signals in nuclear magnetic resonance (NMR) and magnetic resonance imaging (MRI), inertial rotation sensing, and testing fundamental symmetries of nature. Subfemtotesla magnetic sensitivity has been achieved in spin-exchange relaxation-free (SERF), scalar, and radio-frequency atomic magnetometers.
+
+The system uses a laser beam coupled into a polarization maintaining fiber and a vapor cell with dimensions of 4 mm × 4 mm × 4 mm. The sensitivity achieved in the single-beam configuration is 30 fT/Hz1/2. The dynamic response range of the sensor is ±3 nT with a non-linear error of 1%. The frequency responses of the transverse magnetic-modulation mode and the DC-offset mode are 125 Hz and 65 Hz respectively.
+
+The transverse magnetic-modulation mode can suppress low-frequency noise so higher sensitivity can be achieved, but the cross-talk of the modulated magnetic field is introduced among multi-sensors. By applying a suitable offset magnetic field to operate the magnetometer in DC-offset mode, the problem of magnetic field cross-talk can be eliminated completely.
+
+This sensor will be particularly suitable for applications that require high sensitivity, low cost, and compact size such as magnetoencephalography (MEG) and magnetocardiography (MCG).
+
+Is there anything else you would like to know about this paper?
+
+Title: Signal Tracking Beyond the Time Resolution of an Atomic Sensor by Kalman Filtering
+
+This paper discusses a technique for tracking time-varying signals in atomic sensors using Kalman filtering. The authors demonstrate this technique in an archetypal two-stage atomic sensor: an atomic spin ensemble read out via the optical Faraday effect. The goal of this experiment is to estimate time-varying signals such as gravitational or biomagnetic events.
+
+The Kalman filter (KF) provides fast and causal estimation for linear Gaussian models. It is optimal (i.e., with minimum mean-squared error) and provides a full statistical description of the waveform. Even when not optimal, the KF is often applied for its simplicity, versatility, and controllability.
+
+The authors apply known waveforms using spin polarization by optical pumping to compare the KF estimates against the true value of the signal. They verify the accuracy of the statistical model underlying the KF and demonstrate that it can optimally estimate waveforms including signal components faster than the intrinsic temporal resolution of the sensor.
+
+In summary, this paper presents a technique for tracking time-varying signals in atomic sensors using Kalman filtering. The authors demonstrate that this technique can optimally estimate waveforms including signal components faster than the intrinsic temporal resolution of the sensor.
+
+Title: Noisy atomic magnetometry in real time
+
+This paper discusses the use of continuously monitored atomic spin-ensembles for real-time sensing of external magnetic fields beyond classical limits. The authors study how conclusions based on Kalman filtering methods change when inevitable imperfections are taken into account: in the form of collective noise, as well as stochastic fluctuations of the field in time. They prove that even an infinitesimal amount of noise disallows the error to be arbitrarily diminished by simply increasing N (the number of atoms involved), and forces it to eventually follow a classical-like behavior in t (time). However, they also demonstrate that, ‘thanks’ to the presence of noise, in most regimes the model based on a homodyne-like continuous measurement actually achieves the ultimate sensitivity allowed by the decoherence.
+
+Some important terms used in this paper include:
+
+-   Atomic spin-ensembles: A collection of atoms with quantized angular momentum (spin) that can be used for sensing external magnetic fields.
+-   Kalman filtering: A mathematical technique used for estimating unknown variables by using a series of measurements over time.
+-   Homodyne-like continuous measurement: A type of measurement where a signal is mixed with a reference wave and then detected.
+
+Is there anything else you would like to know about this paper?
+
+Title: Quantum Sensing
+
+This paper provides an introduction to the basic principles, methods and concepts of quantum sensing from the viewpoint of an interested experimentalist. The authors define “quantum sensing” as the use of a quantum system, quantum properties or quantum phenomena to perform a measurement of a physical quantity. Historical examples of quantum sensors include magnetometers based on superconducting quantum interference devices and atomic vapors, or atomic clocks. More recently, quantum sensing has become a distinct and rapidly growing branch of research within the area of quantum science and technology.
+
+The paper covers key concepts such as definitions for “quantum sensing” and “quantum sensors”, examples of different types of quantum sensors (such as neutral atoms as magnetic field sensors), the basic measurement protocol for quantum sensing (including Hamiltonian for a quantum sensor), sensitivity (including noise sources), time-dependent signals and noise spectroscopy.
+
+The authors also discuss advanced techniques such as adaptive methods to enhance dynamic range, ensemble sensing (including entangled states), and sensing assisted by auxiliary qubits.
+
+In summary, this paper provides a comprehensive overview of the field of quantum sensing with detailed explanations on key concepts and techniques. It is intended to serve as an introduction for students and researchers new to the field or as a reference for those already active in it.
+
+In this paper, “Quantum Sensing” is defined as the use of a quantum system, quantum properties or quantum phenomena to perform a measurement of a physical quantity. The authors describe how quantum sensing has become a distinct and rapidly growing branch of research within the area of quantum science and technology. The field is expected to provide new opportunities – especially with regard to high sensitivity and precision – in applied physics and other areas of science.
+
+The paper provides an introduction to the basic principles, methods and concepts of quantum sensing from the viewpoint of an interested experimentalist. It covers key concepts such as definitions for “quantum sensing” and “quantum sensors”, examples of different types of quantum sensors (such as neutral atoms as magnetic field sensors), the basic measurement protocol for quantum sensing (including Hamiltonian for a quantum sensor), sensitivity (including noise sources), time-dependent signals and noise spectroscopy.
+
+In summary, this paper provides a comprehensive overview of the field of quantum sensing with detailed explanations on key concepts and techniques.
+
+Title: Quantum State Smoothing for Linear Gaussian Systems
+
+This paper presents the theory of quantum state smoothing for Linear Gaussian Quantum (LGQ) systems. The authors derive a closed-form solution for the quantum smoothed state which is more pure than the standard filtered state while still being described by a physical quantum state. They apply this theory to an on-threshold optical parametric oscillator and explore optimal conditions for purity recovery by smoothing.
+
+The background of this paper involves classical estimation techniques known as smoothing and filtering. These techniques are used to calculate probability density functions (PDFs) of quantities of interest at some time t based on available data from noisy observation of such quantities in time. In filtering, only observed data up to time t is used in the calculation while in smoothing, observed data both before and after t can be used. Smoothing almost always gives more accurate estimates than filtering when real-time estimation is not required.
+
+The authors present a theory of quantum state smoothing for LGQ systems which can be applied to a large number of physical systems such as multimodal light fields, optical and optomechanical systems, atomic ensembles and Bose-Einstein condensates. Due to the properties of LGQ systems, they are able to obtain closed-form solutions for the smoothed LGQ state which makes them much easier to study even than two-level systems.
+
+In summary, this paper presents a theory of quantum state smoothing for LGQ systems that allows for easy application to numerous physical systems and enables analytical treatment of various measurement efficiency regimes.
+
+Title: Quantum State Smoothing for Linear Gaussian Systems
+
+This paper presents the theory of quantum state smoothing for Linear Gaussian Quantum (LGQ) systems. The authors derive a closed-form solution for the quantum smoothed state which is more pure than the standard filtered state while still being described by a physical quantum state. They apply this theory to an on-threshold optical parametric oscillator and explore optimal conditions for purity recovery by smoothing.
+
+The background of this paper involves classical estimation techniques known as smoothing and filtering. These techniques are used to calculate probability density functions (PDFs) of quantities of interest at some time t based on available data from noisy observation of such quantities in time. In filtering, only observed data up to time t is used in the calculation while in smoothing, observed data both before and after t can be used. Smoothing almost always gives more accurate estimates than filtering when real-time estimation is not required.
+
+Quantum state smoothing is a technique for assigning a valid quantum state to a partially observed dynamical system using measurement records both prior and posterior to an estimation time. The authors show that this technique is greatly simplified for LGQ systems which have wide physical applicability.
+
+Linear Gaussian Quantum (LGQ) systems are those that satisfy three conditions: their evolution can be described by a linear Langevin equation; knowledge about the system is conditioned on a measurement record that is linear in x; and the initial state of the system (i.e., the initial PDF of x) is Gaussian.
+
+In summary, this paper presents a theory of quantum state smoothing for LGQ systems that allows for easy application to numerous physical systems and enables analytical treatment of various measurement efficiency regimes.
+
+
+
